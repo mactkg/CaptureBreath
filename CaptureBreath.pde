@@ -22,6 +22,8 @@ void setup() {
   breath = createImage(num_frames, height, RGB);
   
   client = new SyphonClient(this, "UDPSyphonClient");
+  img = createImage(num_frames, height, RGB);
+
 }
 
 void draw() {
